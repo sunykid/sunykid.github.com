@@ -14,7 +14,7 @@ description:
 * 安装[*Git*](https://git-scm.com/)/[*Github Desktop*](https://desktop.github.com/)--我使用git
 
 
-## [jekyll安装](http://jekyllcn.com/)
+## [*jekyll安装*](http://jekyllcn.com/)
 * 安装ruby(我用的windows安装[ruby&devkit])并配置环境变量
     
     `cd devkithome`
