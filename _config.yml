@@ -39,6 +39,7 @@ timezone:    Asia/Shanghai
 future:      true
 highlighter: rouge
 markdown:    kramdown
+markdown_ext:  markdown,mkd,mkdn,md
 gems:
   - jekyll-sitemap
   - jekyll-paginate
@@ -61,6 +62,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  excerpt_separator: "\n\n"
+
 
 include: 
   - .htaccess
