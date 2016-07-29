@@ -1,5 +1,5 @@
 title:            KuKan Blog
-description:      .
+description:      程序员
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:
 owner:
   name:           KuKan
   avatar:         avatar.jpg
-  bio:            "."
+  bio:            "程序员"
   email:          KuKan1030800652@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        

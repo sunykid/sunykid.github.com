@@ -1,0 +1,23 @@
+require 'time'
+
+desc 'create a new draft post'
+task :post do
+    title = ENV['TITLE']
+    slug = "#{Date.today}-#{title}"
+
+    file = File.join(
+        File.dirname(__FILE__),
+        '_posts',
+        slug + '.md'
+    )
+    File.open(file, "w") do |f|
+        f << <<~EOS
+        ---
+        layout: post
+        title: "#{title.encode('utf-8')}"
+        description: 
+        ---
+        EOS
+    end
+    system ("#{ENV['EDITOR']} #{file}")
+end
