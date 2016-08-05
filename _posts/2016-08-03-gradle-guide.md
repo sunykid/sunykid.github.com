@@ -3,11 +3,13 @@ layout: post
 title: "gradle学习"
 description: 
 ---
-# About Gradle
+
+### ***写在前面***
+
+突然想学一下gradle,去官网瞅了瞅觉得文档不错，可惜自己英文太差，看起来那叫一个费劲，心想做个记录吧，全当笔记了。日后想看了可以参考一下，也不用从头再看英文,于是便读到哪里,写到哪里,结果就有了满纸残篇的此文。现在网上有不少大神的经典翻译，等自己都看完了再去拜读一下吧。能力有限,也尚未复读,若觉得不济,一笑而过便可。或有心指教,实在荣幸必虚心以学之。(**doing...**)
 
 
-# Working with existing builds
-
+# ***Part1***-Working with existing builds
 
     
 ## 4.使用Gradle命令行
