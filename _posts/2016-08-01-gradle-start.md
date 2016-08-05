@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "gradle-start"
+title: "gradle-start学习(草稿)"
 description: 
 ---
-#用gradle构建工程
+# 用gradle构建工程
 
-##gradle安装
+## gradle安装
 
-##关于gradleWrapper
+## 关于gradleWrapper
 
-##识别项目特征
+## 识别项目特征
 * 多项目构建
 
-#为一个工程创建新的构建脚本
+# 为一个工程创建新的构建脚本
 
 
-##快速创建工程
+## 快速创建工程
 gradle init --type=java-library //创建工程骨架
 
-##gradle一些核心概念
+## gradle一些核心概念
 
 * [Gradle构建阶段](https://docs.gradle.org/current/userguide/build_lifecycle.html#sec:build_phases)
     1. 初始化
